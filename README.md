@@ -1,6 +1,6 @@
 # Review-of-Quantum-Dot
 
-## Ge/Si quantum wires for quantum computing
+## [Ge/Si quantum wires for quantum computing](https://www.nature.com/articles/s41578-020-00262-z)
 
 ### Rebirth of Germanium
 - Maturity in technology for Ge compatible high K dielectric- Essential for better conduction	
@@ -75,14 +75,21 @@
 
 Ge is appealing for topological quantum computing as it enables for topologically protected quasiparticle states.
 Ge has high SO interaction and hence RSOC provides an intrinsic mechanism for electrical qubit control.
+Also provides the platform for development of logical qubits in 2D structure. Schottky barrier free contacts.
 
-## Quantum Dots
+## [Quantum Dots](https://iopscience.iop.org/article/10.1088/1361-6528/ab061e)
 Ref: [link](https://github.com/rockysaikia730/Review-of-Quantum-Dot/edit/main/README.md/SimulateQD.pdf)
 
-### Qubit(Q1)
-- It has SiGe substrate on which Ge is strined between another layer of SiGe. 
+### Quantum Dot(Q1)
+- It has SiGe substrate on which Ge is strained between another layer of SiGe. 
 - A layer of Al2O3 has been stacked and Sn and Au is stacked to form the gate.
 - Electron beam lithography was used using a single metal layer.
+- Four ohmic contacts are used for measurement.
+- The effective mass of the hole is around 0.08mo implying greater spatial extent and hence tunnel couplings would be enhanced.
+- The SEM image of the 2DHG confinement to hole.
+<p align="center">
+<img src='img/Q1.png' height=300>
+ </p>
 - The plunger gates were used to tune the size of the quantum dot.
 - The accumulation gate were negatively biased in order to accumulate the holes. It had a threshold voltage -0.4 V to -1.6V.
 - The plungers are biased positively for confinement.
@@ -101,5 +108,5 @@ Ref: [link](https://github.com/rockysaikia730/Review-of-Quantum-Dot/edit/main/RE
 
 
 
-Also provides the platform for development of logical qubits in 2D structure
-Schottky barrier free contacts.
+
+
