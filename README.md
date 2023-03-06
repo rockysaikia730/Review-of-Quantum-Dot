@@ -66,13 +66,40 @@
 #### Spin qubits
 - Spin relaxation is the relaxation of a system to ground state from excited state. In our case we are considering relaxation through spin flip processes.As spin effects influence current through QD we can mesure spin relaxation time.
 - In Si, as SO interaction is small so they require nanomagnets while in Ge the SO splitting is large so Ge enables us to scale the system as we dont require external field. For realization of spin qubits we have to increase the number of qubits and scale it to 2D structure.
-- The spin coherence/lifetime can be measured using the Rabi frequency method.
+- The spin coherence/lifetime can be measured using the Rabi oscillations.
 - Pauli Spin Blockade - Pauli spin blockade is a way to measure spin in QD by means of charge(Not possible for 1D QD). In this case, when we bias drain w.r.t source and Energy of QD-1 and QD-2 is lower than drain then for same aligned electron blocks the passage of current through the DQD. (ref: [Video](https://www.youtube.com/watch?time_continue=876&v=RGoETtK2YCE&embeds_euri=https%3A%2F%2Fwww.google.com%2Fsearch%3Fclient%3Dsafari%26rls%3Den%26q%3Dpauli%2Bspin%2Bbloackage%26ie%3DUTF-8%26oe%3DUTF-8&source_ve_path=MTM5MTE3LDEzOTExNw&feature=emb_logo&themeRefresh=1))
 - Pauli spin blockade can be imposed by putting appropriate gate voltage and when we apply microwave of hf = g u B then current increases which implies qubit rotation
-- Superconductor-Semiconductor hybrids(S-Sm)
+#### Superconductor-Semiconductor hybrids(S-Sm)
 - When a Sm is brought close to S, then due to superconducting proximity effect, the Sm develops behavior like josephson junction. This are called JoFET.
 - Fermi energy of certain supercondutors are close to valence band energy of Ge i.e. low barrier.
 
 Ge is appealing for topological quantum computing as it enables for topologically protected quasiparticle states.
+Ge has high SO interaction and hence RSOC provides an intrinsic mechanism for electrical qubit control.
+
+## Quantum Dots
+Ref: [link](https://github.com/rockysaikia730/Review-of-Quantum-Dot/edit/main/README.md/SimulateQD.pdf)
+
+### Qubit(Q1)
+- It has SiGe substrate on which Ge is strined between another layer of SiGe. 
+- A layer of Al2O3 has been stacked and Sn and Au is stacked to form the gate.
+- Electron beam lithography was used using a single metal layer.
+- The plunger gates were used to tune the size of the quantum dot.
+- The accumulation gate were negatively biased in order to accumulate the holes. It had a threshold voltage -0.4 V to -1.6V.
+- The plungers are biased positively for confinement.
+
+## Simulation
+
+- An attempt was made from my side to develop the structure in COMSOL and calculate the charge density uing Thomas Fermi approximation
+- Non availability of data is making it difficult to replicate it. 
+
+
+
+
+
+
+
+
+
+
 Also provides the platform for development of logical qubits in 2D structure
 Schottky barrier free contacts.
